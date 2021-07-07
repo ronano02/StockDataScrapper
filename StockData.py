@@ -37,9 +37,7 @@ def stonkData(list):
             print('Bought in at:' + str(stock.buyin))
         print()
 
-exit = 0
-
-while exit == 0:
+while True:
     print('-' * 100)
     print('\nS T O N K S\n')
     stonkData(stocks)
